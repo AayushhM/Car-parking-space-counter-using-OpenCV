@@ -9,11 +9,11 @@ In this step, we manually select the parking slot locations in an image of the c
 Step 2: Monitoring the Car Park Occupancy
 In this step, we read the video of the car park and for each frame, we check the occupancy status of each parking slot. We use image processing techniques to detect the presence of a car in the parking slot. 
 The techniques used are:
-Converting the frame from BGR to grayscale
-Applying Gaussian Blur to remove noise
-Adaptive thresholding to separate the background and foreground
-Median Blur to remove salt and pepper noise
-Dilation to expand the detected object
+Converting the frame from BGR to grayscale,
+Applying Gaussian Blur to remove noise,
+Adaptive thresholding to separate the background and foreground,
+Median Blur to remove salt and pepper noise,
+Dilation to expand the detected object, 
 Finally, we draw a rectangle around the parking slot and color it green if it is empty and red if it is occupied. The number of free parking slots and the total number of parking slots are displayed on the output video.
 
 Conclusion:
